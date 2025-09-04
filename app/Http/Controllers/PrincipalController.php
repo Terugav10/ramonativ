@@ -20,4 +20,25 @@ class PrincipalController extends Controller
     {
         return view('profile');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function handleContact(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'nullable|string|max:50',
+        ]);
+
+        return view('contact-result', ['data' => $validated]);
+    }
 }
