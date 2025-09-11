@@ -101,7 +101,7 @@
                         <p style="margin:0">Me chamo Daniel, tenho 17 anos. Faço curso de Desenvolvimento de Sistemas e pretendo trabalhar posteriormente utilizando HTML, CSS e JavaScript. Meu sonho é me tornar um web designer e criar sites incríveis no futuro.</p>
                     </div>
                     <ul class="list" aria-hidden="true">
-                        <li class="chip">Java</li>
+                        <li class="chip">Java Script</li>
                         <li class="chip">CSS</li>
                         <li class="chip">HTML</li>
                         <li class="chip">Front-end</li>
